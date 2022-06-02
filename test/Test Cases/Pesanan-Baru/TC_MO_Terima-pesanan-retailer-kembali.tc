@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MO_Terima-pesanan-retailer-kembali</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba20229b-d3f5-4d89-bb81-eec515016aa2</testCaseGuid>
+</TestCaseEntity>

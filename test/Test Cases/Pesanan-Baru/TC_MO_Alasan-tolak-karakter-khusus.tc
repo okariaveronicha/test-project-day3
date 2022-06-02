@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MO_Alasan-tolak-karakter-khusus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddd14832-65b9-4b17-8433-a3a427595c98</testCaseGuid>
+</TestCaseEntity>

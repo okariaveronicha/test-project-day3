@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MO_Alamat-toko-dengan-karakter-spesial</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf26a8e2-bed3-4e9b-8312-9e62c07cf482</testCaseGuid>
+</TestCaseEntity>

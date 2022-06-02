@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MO_Terima-pesanan-retailer-dihapus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cea4f1e4-aa8b-483a-9595-64e97e649160</testCaseGuid>
+</TestCaseEntity>
