@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite</name>
+   <name>inbox pesanan</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0efe1a28-dbb6-484f-8295-b288089935df</testSuiteGuid>
+   <testSuiteGuid>8a85f305-41c7-4eb8-bcec-ca5c351987d7</testSuiteGuid>
    <testCaseLink>
-      <guid>92443e62-0088-4f76-9922-4396f513b3aa</guid>
+      <guid>7894e21a-c758-44f1-b2f6-659f368e069b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test case/Fitur daftar supplier</testCaseId>
+      <testCaseId>Test Cases/Test case/Fitur inbox pesanan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

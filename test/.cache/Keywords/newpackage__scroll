@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "8E724D59BEA2EEDE7A9945DB401C595C",
+  "keywordClasses": [
+    {
+      "name": "newpackage.scroll",
+      "keywordMethods": [
+        {
+          "name": "scrollListToElementWithText",
+          "parameters": [
+            {
+              "name": "elementText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
