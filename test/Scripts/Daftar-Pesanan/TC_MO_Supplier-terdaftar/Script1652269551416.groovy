@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.co.bri.stroberikasir')
 
-Mobile.setText(findTestObject('Object Repository/Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.EditText - Nomor Ponsel'), 
+Mobile.setText(findTestObject('Object Repository/Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.EditText - Nomor Ponsel'), 
     '081260385053', 0)
 
-Mobile.setEncryptedText(findTestObject('Object Repository/Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.EditText - Kata Sandi'), 
+Mobile.setEncryptedText(findTestObject('Object Repository/Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.EditText - Kata Sandi'), 
     'iFGeFYmXIrUb+oh5wcng3A==', 0)
 
-Mobile.tap(findTestObject('Object Repository/Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.Button - Masuk'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.Button - Masuk'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.TextView - Daftar Pesanan'), 0)
+Mobile.tap(findTestObject('Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.TextView - Daftar Pesanan'), 0)
 
-Mobile.tap(findTestObject('Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.LinearLayout'), 0)
+Mobile.tap(findTestObject('Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.LinearLayout'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Daftar-Pesanan/TC_MO_Supplier-terdaftar/android.widget.ScrollView'), 0)
+Mobile.verifyElementVisible(findTestObject('Daftar-Pesanan-saat-ditambahkan-retailer/TC_MO_Supplier-terdaftar/android.widget.ScrollView'), 0)
 
 Mobile.closeApplication()
 

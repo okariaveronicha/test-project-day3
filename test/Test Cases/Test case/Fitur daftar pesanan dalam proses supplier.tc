@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Fitur daftar pesanan</name>
+   <name>Fitur daftar pesanan dalam proses supplier</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f8922692-20b5-4f33-98f8-6719993cde03</testCaseGuid>
+   <testCaseGuid>c006355d-ac07-4015-838f-ee6c7d04ed2b</testCaseGuid>
 </TestCaseEntity>
