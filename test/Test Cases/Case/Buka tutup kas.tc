@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Fitur belanja produk</name>
+   <name>Buka tutup kas</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4d61847c-8bb6-4ad8-93ba-0d24dbf00193</testCaseGuid>
+   <testCaseGuid>f6648bfc-3e06-45bb-8c95-2065a28a4586</testCaseGuid>
 </TestCaseEntity>

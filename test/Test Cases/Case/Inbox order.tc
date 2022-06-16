@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Inbox order</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c7169542-202a-4bb9-9be3-6a1ccf8364e5</testCaseGuid>
+   <testCaseGuid>27a7cc48-eaeb-4507-9b2f-3f52d2017e28</testCaseGuid>
 </TestCaseEntity>

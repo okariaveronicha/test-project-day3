@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>pembayaran pesanan</name>
+   <name>inbox order</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>cfcac6cd-4af3-4da2-9559-4181d5750be4</testSuiteGuid>
+   <testSuiteGuid>8ca3d6ff-3f36-4438-aaa8-09d254e55269</testSuiteGuid>
    <testCaseLink>
-      <guid>4b3eafd9-b52f-4ee8-b699-c451e7bc5f8e</guid>
+      <guid>8b5e0474-1097-4eae-9e39-1f87abdb713a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case/Fitur bayar pesanan</testCaseId>
+      <testCaseId>Test Cases/Case/Inbox order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

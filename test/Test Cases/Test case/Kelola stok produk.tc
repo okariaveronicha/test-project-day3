@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Fitur belanja produk</name>
+   <name>Kelola stok produk</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4d61847c-8bb6-4ad8-93ba-0d24dbf00193</testCaseGuid>
+   <testCaseGuid>c7169542-202a-4bb9-9be3-6a1ccf8364e5</testCaseGuid>
 </TestCaseEntity>

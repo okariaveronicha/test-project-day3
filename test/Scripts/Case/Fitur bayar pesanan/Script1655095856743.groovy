@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.co.bri.stroberikasir')
 
-Mobile.setText(findTestObject('Object Repository/Daftar-supplier/android.widget.EditText - Nomor Ponsel'), '081260385053', 
-    0)
-
-Mobile.setEncryptedText(findTestObject('Object Repository/Daftar-supplier/android.widget.EditText - Kata Sandi'), 'iFGeFYmXIrUb+oh5wcng3A==', 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Daftar-supplier/android.widget.Button - Masuk'), 0)
+//Mobile.setText(findTestObject('Object Repository/Daftar-supplier/android.widget.EditText - Nomor Ponsel'), '081260385053', 
+//    0)
+//
+//Mobile.setEncryptedText(findTestObject('Object Repository/Daftar-supplier/android.widget.EditText - Kata Sandi'), 'iFGeFYmXIrUb+oh5wcng3A==', 
+//    0)
+//
+//Mobile.tap(findTestObject('Object Repository/Daftar-supplier/android.widget.Button - Masuk'), 0)
 
 'Batalkan pesanan'
 Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.TextView - Order'), 0)
@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Bayar pesanan/android.widget.TextView - Dibatalkan'), 0)
 
-Mobile.takeScreenshot('D:\\ss')
+Mobile.takeScreenshot('D:\\ss\\screenshot - 3.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.ImageView back'), 0)
 
@@ -68,14 +68,14 @@ Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.TextVi
 
 Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button - Bayar'), 0)
 
+Mobile.takeScreenshot('D:\\ss\\screenshot - 4.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 //Thread.sleep(20000)
 //Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button - Cek status pembayaran'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button - Cek status pembayaran'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button - Transaksi Baru'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.takeScreenshot('D:\\ss', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Bayar pesanan/android.widget.Button - Transaksi Baru'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

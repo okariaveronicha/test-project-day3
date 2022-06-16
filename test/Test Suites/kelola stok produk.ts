@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>pembayaran pesanan</name>
+   <name>kelola stok produk</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>cfcac6cd-4af3-4da2-9559-4181d5750be4</testSuiteGuid>
+   <testSuiteGuid>4689ec65-afe9-4211-bb16-6c0eb8fa17f1</testSuiteGuid>
    <testCaseLink>
-      <guid>4b3eafd9-b52f-4ee8-b699-c451e7bc5f8e</guid>
+      <guid>61dbf86f-46b7-414f-9982-d41fa6a2701c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case/Fitur bayar pesanan</testCaseId>
+      <testCaseId>Test Cases/Case/Kelola stok produk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
