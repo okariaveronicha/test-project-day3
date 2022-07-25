@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_tabel</name>
+   <tag></tag>
+   <elementGuidId>f3958159-382f-4f26-8d82-875d098a4e12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ReactTable.-striped.-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>29ed279f-4c1e-4cbf-9596-fed376b80fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ReactTable -striped -highlight</value>
+      <webElementGuid>6a859f9c-56ec-4416-83ca-560a0ddd4208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>First NameLast NameAgeEmailSalaryDepartmentActionCierraVega39cierra@example.com10000Insurance AldenCantrell45alden@example.com12000Compliance KierraGentry29kierra@example.com2000Legal                                                  PreviousPage  of 15 rows10 rows20 rows25 rows50 rows100 rowsNextLoading...</value>
+      <webElementGuid>0762d2a1-6ecc-4776-916f-cbed32624241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]/div[@class=&quot;web-tables-wrapper&quot;]/div[@class=&quot;ReactTable -striped -highlight&quot;]</value>
+      <webElementGuid>ce0f3937-b88c-4967-97c8-8d93759da1e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[3]</value>
+      <webElementGuid>84615799-ad8a-47a2-b7bc-27eec8b5eb81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::div[4]</value>
+      <webElementGuid>7d9ba1f1-1e57-4789-a4c8-c153729c361d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Store API'])[1]/following::div[11]</value>
+      <webElementGuid>2863e93a-e7b9-465c-9243-6d8c5338c46e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[3]</value>
+      <webElementGuid>e5f9a0a1-e08e-4a26-843b-ff033a3545f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'First NameLast NameAgeEmailSalaryDepartmentActionCierraVega39cierra@example.com10000Insurance AldenCantrell45alden@example.com12000Compliance KierraGentry29kierra@example.com2000Legal                                                  PreviousPage  of 15 rows10 rows20 rows25 rows50 rows100 rowsNextLoading...' or . = 'First NameLast NameAgeEmailSalaryDepartmentActionCierraVega39cierra@example.com10000Insurance AldenCantrell45alden@example.com12000Compliance KierraGentry29kierra@example.com2000Legal                                                  PreviousPage  of 15 rows10 rows20 rows25 rows50 rows100 rowsNextLoading...')]</value>
+      <webElementGuid>9c168e41-ba81-48f3-96fd-294ed482f7bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
