@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>34</name>
+   <tag></tag>
+   <elementGuidId>e4e008ba-4046-4be9-9245-ba93f8d56376</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;pa_size&quot;]/option[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//option[contains(text(),'34')]</value>
+      <webElementGuid>618b4816-5150-4d07-8c72-8f6363db6a94</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_T-shirt</name>
+   <tag></tag>
+   <elementGuidId>45c76b72-b894-4e55-befd-18aa33f9166a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.taxonomy.product_cat > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='noo-site']/section/div/div/div/span[3]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>457fd34b-5390-4105-8c0e-cac72faac82d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>property</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>6dbb6806-751d-4c0d-a887-eac0e0b1563e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>T-shirt</value>
+      <webElementGuid>96a99ba2-9d82-4fe5-867d-a0ba2e3ecaf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;noo-site&quot;)/section[@class=&quot;noo-page-heading&quot;]/div[@class=&quot;noo-container&quot;]/div[@class=&quot;noo-heading-content&quot;]/div[@class=&quot;noo-page-breadcrumb&quot;]/span[3]/a[@class=&quot;taxonomy product_cat&quot;]/span[1]</value>
+      <webElementGuid>ccd62ed4-ce27-4e06-8601-1bb0fa2633e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='noo-site']/section/div/div/div/span[3]/a/span</value>
+      <webElementGuid>d9e57f51-a1dd-4607-92b8-49d02ae11625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::span[2]</value>
+      <webElementGuid>f5454ff7-4665-4033-866b-e3e579270198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ToolsQA Demo Site'])[1]/following::span[4]</value>
+      <webElementGuid>95fb3ab1-e02d-44c2-827c-7304658a9a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pink drop shoulder oversized t shirt'])[2]/preceding::span[1]</value>
+      <webElementGuid>6a0b2887-42d0-4157-8fa4-329b34951976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='T-shirt']/parent::*</value>
+      <webElementGuid>b082cd16-bd57-4675-acd7-814c41686eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/a/span</value>
+      <webElementGuid>2bee2896-72a8-4124-a528-83566a55e136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'T-shirt' or . = 'T-shirt')]</value>
+      <webElementGuid>a5900a62-df1a-40ea-bdca-49c2cedf362e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

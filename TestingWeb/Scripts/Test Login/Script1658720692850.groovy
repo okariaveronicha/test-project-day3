@@ -16,30 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandStr
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://shop.demoqa.com/')
+WebUI.navigateToUrl('https://www.phptravels.net/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_Dismiss'))
+WebUI.click(findTestObject('Object Repository/Travels/Page_PHPTRAVELS  Travel Technology Partner _11a09b/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_My Account'))
+WebUI.setText(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/input_Email_email'), 'user@phptravels.com')
 
-WebUI.scrollToPosition(50, 150)
+WebUI.setEncryptedText(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/input_Password_password'), '6weEYLVRi3+STmppai9GiQ==')
 
-randomNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__username'), 'okaria' + randomNum)
+WebUI.click(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/span_Login'))
 
-rndNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__email'), 'okaria' + rndNum + '@gmail.com')
+WebUI.refresh()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - register/input__password'), 'R0HxUDq1D0hmqEmBgkwfdg==')
+txtWB = WebUI.getText(findTestObject('Object Repository/Travels/Page_Dashboard - PHPTRAVELS/span_Welcome Back'))
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/button_Register'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Shop tools - register/form_Username or Email AddressPassword Remember Me'))
-
-
+WebUI.verifyElementText(findTestObject('Travels/Page_Dashboard - PHPTRAVELS/span_Welcome Back'), txtWB)

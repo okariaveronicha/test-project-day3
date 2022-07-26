@@ -12,34 +12,37 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
+import org.openqa.selenium.By
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandStr
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebDriver
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Travels/Page_Bookings - PHPTRAVELS/a_My Bookings'))
 
-WebUI.navigateToUrl('https://shop.demoqa.com/')
+txtTotal = WebUI.getText(findTestObject('Travels/Page_Bookings - PHPTRAVELS/strong_( 2 )'))
 
-WebUI.maximizeWindow()
+splitText = txtTotal.substring(2,3)
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_Dismiss'))
+//TestObject testObj = findTestObject('Object Repository/Travels/Page_Bookings - PHPTRAVELS/ListHotel')
+WebDriver driver = DriverFactory.getWebDriver()
+List<WebElement> txtListHotel = driver.findElements(By.xpath('//*[@scope="row"]'))
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_My Account'))
+List<WebElement> txtListPending = driver.findElements(By.xpath('//*[@id="fadein"]/section[1]/div/div[2]/div/div[1]/div/div/div[2]/div/table/tbody/tr/td[3]'))
 
-WebUI.scrollToPosition(50, 150)
+totalListHotel = txtListHotel.size();
 
-randomNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__username'), 'okaria' + randomNum)
+println(txtListHotel.size())
 
-rndNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__email'), 'okaria' + rndNum + '@gmail.com')
+println(txtListPending.size())
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - register/input__password'), 'R0HxUDq1D0hmqEmBgkwfdg==')
+WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/button_Register'))
+WebUI.getText(findTestObject('Travels/Page_Dashboard - PHPTRAVELS/h4_2'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Shop tools - register/form_Username or Email AddressPassword Remember Me'))
-
+WebUI.verifyElementText(findTestObject('Travels/Page_Dashboard - PHPTRAVELS/h4_2'), totalListHotel.toString())
 

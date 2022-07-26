@@ -16,30 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandStr
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('phptravels/a_My Bookings'))
 
-WebUI.navigateToUrl('https://shop.demoqa.com/')
+txtNum = WebUI.getText(findTestObject('phptravels/strong_( 2 )'))
 
-WebUI.maximizeWindow()
+splitText = txtNum.substring(2,3)
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_Dismiss'))
+WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_My Account'))
+WebUI.getText(findTestObject('phptravels/h4_2'))
 
-WebUI.scrollToPosition(50, 150)
-
-randomNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__username'), 'okaria' + randomNum)
-
-rndNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__email'), 'okaria' + rndNum + '@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - register/input__password'), 'R0HxUDq1D0hmqEmBgkwfdg==')
-
-WebUI.click(findTestObject('Object Repository/Shop tools - register/button_Register'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Shop tools - register/form_Username or Email AddressPassword Remember Me'))
-
+WebUI.verifyElementText(findTestObject('phptravels/h4_2'), splitText)
 

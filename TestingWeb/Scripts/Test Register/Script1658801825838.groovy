@@ -16,30 +16,4 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandStr
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://shop.demoqa.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_Dismiss'))
-
-WebUI.click(findTestObject('Object Repository/Shop tools - register/a_My Account'))
-
-WebUI.scrollToPosition(50, 150)
-
-randomNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__username'), 'okaria' + randomNum)
-
-rndNum = RandStr.randomNumeric(2)
-WebUI.setText(findTestObject('Object Repository/Shop tools - register/input__email'), 'okaria' + rndNum + '@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - register/input__password'), 'R0HxUDq1D0hmqEmBgkwfdg==')
-
-WebUI.click(findTestObject('Object Repository/Shop tools - register/button_Register'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Shop tools - register/form_Username or Email AddressPassword Remember Me'))
-
 

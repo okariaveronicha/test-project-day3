@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Login</name>
+   <tag></tag>
+   <elementGuidId>d5b5da46-a8f7-4d1f-9155-6a6bc605205b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ladda-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='fadein']/div/div/div[2]/div[2]/div/form/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>73fb943b-a4ab-4e7c-9100-1525e75d732c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ladda-label</value>
+      <webElementGuid>898ac18c-0f26-4a69-937d-3583f3001e0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>bc1fec12-1da9-4227-91c7-065c8d195241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fadein&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5 mb-5&quot;]/div[@class=&quot;modal-content col align-self-center&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;contact-form-action&quot;]/form[1]/div[@class=&quot;btn-box pt-3 pb-4&quot;]/button[@class=&quot;btn btn-default btn-lg btn-block effect ladda-button waves-effect&quot;]/span[@class=&quot;ladda-label&quot;]</value>
+      <webElementGuid>8decc033-2409-4a95-b121-5be40a9956c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='fadein']/div/div/div[2]/div[2]/div/form/div[3]/button/span</value>
+      <webElementGuid>3d79d869-b718-4edb-a313-5e27ebf20c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Password'])[1]/following::span[1]</value>
+      <webElementGuid>e9634722-8870-4f2b-abb7-cc5c31e19b72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::span[1]</value>
+      <webElementGuid>7aa29b89-3699-4801-acfe-90639d73e735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signup'])[4]/preceding::span[2]</value>
+      <webElementGuid>7545b2b8-2242-4881-897a-586391d4901d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Password'])[2]/preceding::span[5]</value>
+      <webElementGuid>05a8baea-2cae-4708-886a-479b369ae2da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>043930e4-8cac-403f-91f9-8301e3bd4c13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>b56e4055-da66-4fee-9f3a-5a5a8ec28d03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

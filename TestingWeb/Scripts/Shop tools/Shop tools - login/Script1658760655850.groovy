@@ -28,12 +28,15 @@ WebUI.click(findTestObject('Object Repository/Shop tools - login/a_Dismiss'))
 WebUI.click(findTestObject('Object Repository/Shop tools - login/a_My Account'))
 
 //WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/h2_Login'), 0)
-WebUI.scrollToPosition(50, 120)
-WebUI.setText(findTestObject('Object Repository/Shop tools - login/input__username'), 'okariaveronicha')
+WebUI.scrollToPosition(50, 150)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - login/input__password'), 'R0HxUDq1D0hmqEmBgkwfdg==')
+WebUI.setText(findTestObject('Object Repository/Shop tools - login/input__username'), 'user123@phptravels.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Shop tools - login/input__password'), 'FGeui0Il9vvLqwyijXFuow==')
 
 WebUI.click(findTestObject('Object Repository/Shop tools - login/button_Log in'))
+
+WebUI.getText(findTestObject('Shop tools - login/h1_My Account'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Shop tools - login/h1_My Account'), 'MY ACCOUNT')
 
