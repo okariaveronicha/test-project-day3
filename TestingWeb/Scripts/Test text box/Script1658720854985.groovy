@@ -19,21 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.navigateToUrl('https://demoqa.com/text-box')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Travels/Page_PHPTRAVELS  Travel Technology Partner _11a09b/Page_Login'))
+WebUI.setText(findTestObject('Object Repository/Page_ToolsQA/input_Full Name_userName'), 'Koswara')
 
-WebUI.setText(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/input_Email_email'), 'user@phptravels.com')
+WebUI.setText(findTestObject('Object Repository/Page_ToolsQA/input_Email_userEmail'), 'test@email.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/input_Password_password'), '6weEYLVRi3+STmppai9GiQ==')
+WebUI.setText(findTestObject('Object Repository/Page_ToolsQA/textarea_Current Address_currentAddress'), 'Kuningan')
 
-WebUI.click(findTestObject('Object Repository/Travels/Page_Login - PHPTRAVELS/span_Login'))
+WebUI.setText(findTestObject('Object Repository/Page_ToolsQA/textarea_Permanent Address_permanentAddress'), 'Kuningan')
 
-WebUI.refresh()
+WebUI.scrollToElement(findTestObject('Object Repository/Page_ToolsQA/btn_Submit'), 0)
 
-txtWB = WebUI.getText(findTestObject('Object Repository/Travels/Page_Dashboard - PHPTRAVELS/span_Welcome Back'))
+WebUI.click(findTestObject('Object Repository/Page_ToolsQA/btn_Submit'))
 
-WebUI.verifyElementText(findTestObject('Travels/Page_Dashboard - PHPTRAVELS/span_Welcome Back'), txtWB)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_ToolsQA/p_NameKoswara'), 'Name:Koswara')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_ToolsQA/p_Emailtestemail.com'), 'Email:test@email.com')
+
+WebUI.verifyElementText(findTestObject('Page_ToolsQA/p_Current Address kuningan'), 'Current Address :Kuningan')
+
+WebUI.closeBrowser()
 

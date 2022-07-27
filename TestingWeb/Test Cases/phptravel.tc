@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Text Box</name>
+   <name>phptravel</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6efd67ce-4d77-4ae0-890f-e57a36e7f052</testCaseGuid>
+   <testCaseGuid>446733b7-b875-47a5-b40f-988cf8402217</testCaseGuid>
 </TestCaseEntity>

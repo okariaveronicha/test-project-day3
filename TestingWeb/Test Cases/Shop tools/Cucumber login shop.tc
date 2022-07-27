@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Text Box</name>
+   <name>Cucumber login shop</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6efd67ce-4d77-4ae0-890f-e57a36e7f052</testCaseGuid>
+   <testCaseGuid>a0d9e4e5-d5eb-472d-a395-382fb7651907</testCaseGuid>
 </TestCaseEntity>
